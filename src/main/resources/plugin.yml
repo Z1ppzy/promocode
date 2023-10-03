@@ -1,0 +1,9 @@
+name: promocode
+version: '${project.version}'
+main: org.heavenlyweiner.promocode.Promocode
+api-version: '1.20'
+commands:
+  happystart:
+    description: Получение награды промокода
+    usage: /<command>
+    permission: yourplugin.yourcommandpermission
